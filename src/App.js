@@ -7,9 +7,9 @@ import Table from "./components/Table/Table";
 
 function App() {
   const example = [
-    ["Example",  " ", "Example",  " ", "Example"],
-    ["Example", " ", "Example",  " ", "Example"],
-    ["Example",  " ", "Example",  " ", "Example"],
+    ["Example", " ", "Example", " ", "Example"],
+    ["Example", " ", "Example", " ", "Example"],
+    ["Example", " ", "Example", " ", "Example"],
   ];
 
   const veggies = ["Carrot", "Potato", "Strawberry"];
@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <h2>Homework</h2>
-       <Table src={example} />
+      <Table src={example} />
       <h1>Hello world</h1>
       <ul>{veggiesList}</ul>
       <ol>{veggiesList}</ol>
@@ -50,8 +50,6 @@ function App() {
       <ProgressBar progress={30} />
       <ProgressBar progress={60} />
       <ProgressBar progress={90} />
-
-     
     </div>
   );
 }
