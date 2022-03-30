@@ -1,7 +1,12 @@
-table, th, td {
-  border:  1px solid black;
-  padding: 3px;
+.Table {
+  margin: 10px;
   border-collapse: collapse;
-  border-radius: 10px;
-  margin: 20px;
+}
+
+.Table tr {
+  padding: 10px;
+}
+.Table td {
+  padding: 10px;
+  border: 1px solid rgb(122, 122, 122);
 }
