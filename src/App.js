@@ -5,9 +5,9 @@ import Table from "./components/Table/Table";
 
 function App() {
   const table = [
-    { example: 'example', example: 'example', example: 'example', },
-    { example: 'example', example: 'example', example: 'example', },
-    { example: 'example', example: 'example', example: 'example', },
+    { example: 'HTML', example: 'HTML', example: 'HTML' },
+    { example: 'HTML', example: 'HTML', example: 'HTML' },
+    { example: 'HTML', example: 'HTML', example: 'HTML' },
   ];
   const veggies = ["Carrot", "Potato", "Strawberry"];
 
